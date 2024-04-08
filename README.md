@@ -4,7 +4,7 @@
 
 01. Provision an 'Azure with ARO Open Environment (Subscription Based)' ([ARO](https://demo.redhat.com/catalog?search=aro&item=babylon-catalog-prod%2Fazure-gpte.open-environment-aro4-sub.prod)) on 'demo.redhat.com'
 
-### Deploying HTML Frontend
+### Developing HTML Frontend
 
 faruq to add
 
@@ -18,4 +18,8 @@ faruq to add
 
 ### Building Chatflow on Flowise
 
-![](chatflow_sample.jpg)
+![](chatflow_sample.png)
+
+03. Open Flowise from the service running on ARO
+
+04. Build a chatflow based on the sample above
