@@ -51,7 +51,7 @@ Line 95, 112 found in API_URL under Python.
 ### Deploying ChromaDB
 
 01. Deploy ChromaDB server using the container image `docker.io/faruqzafir/test1:v1` on ARO
-    * You may refer to  this article ([GenAI on OpenShift Series](https://medium.com/@bjohns_49809/gen-ai-on-openshift-series-episode-3-e77b746d607e)) on how to build your BromaDB container
+    * You may refer to  this article ([GenAI on OpenShift Series](https://medium.com/@bjohns_49809/gen-ai-on-openshift-series-episode-3-e77b746d607e)) on how to build your ChromaDB container
 
 
 ## Resources
