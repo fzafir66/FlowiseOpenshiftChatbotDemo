@@ -2,13 +2,13 @@
 
 ### Provisioning ARO
 
-01. Provision an 'Azure with ARO Open Environment (Subscription Based)' ([ARO](https://demo.redhat.com/catalog?search=aro&item=babylon-catalog-prod%2Fazure-gpte.open-environment-aro4-sub.prod)) on 'demo.redhat.com'
+01. Provision an `Azure with ARO Open Environment (Subscription Based)` ([ARO](https://demo.redhat.com/catalog?search=aro&item=babylon-catalog-prod%2Fazure-gpte.open-environment-aro4-sub.prod)) on `demo.redhat.com`
 
 ### Create a Chatflow on Flowise
 
 01. Deploy Flowise service using the container image `docker.io/rach228/flowise-chatflow:1.2` on ARO and ensure that the container is exposed at port 3000.
 
-02. Open Flowise from the service running on ARO
+02. Open Flowise from the service running on ARO.
 
 03. Build a chatflow based on the sample below.
 
@@ -44,7 +44,7 @@ Line 95, 112 found in API_URL under Python.
 
 ![image](https://github.com/fzafir66/flowise/assets/159418607/2f085128-ee54-4d44-adb7-0caf851b5572)
 
-04. Build your container image for your frontend
+04. Build your container image for your frontend.
 
 05. Deploy your frontend on ARO and ensure that the container is exposed at port 8080.
 
@@ -53,6 +53,7 @@ Line 95, 112 found in API_URL under Python.
 01. Deploy ChromaDB server using the container image `docker.io/faruqzafir/test1:v1` on ARO
     * You may refer to  this article ([GenAI on OpenShift Series](https://medium.com/@bjohns_49809/gen-ai-on-openshift-series-episode-3-e77b746d607e)) on how to build your BromaDB container
 
-### Resources
 
-    * ([GenAI on OpenShift Series](https://medium.com/@bjohns_49809/gen-ai-on-openshift-series-episode-3-e77b746d607e))
+## Resources
+
+* [GenAI on OpenShift Series](https://medium.com/@bjohns_49809/gen-ai-on-openshift-series-episode-3-e77b746d607e)
